@@ -8,7 +8,7 @@
 
 'use strict'
 
-globalThis.buffer = Buffer;
+globalThis.Buffer = Buffer;
 
 const base64 = require('base64-js')
 const ieee754 = require('ieee754')
