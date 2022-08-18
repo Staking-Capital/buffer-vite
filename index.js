@@ -8,6 +8,8 @@
 
 'use strict'
 
+globalThis.buffer = Buffer;
+
 const base64 = require('base64-js')
 const ieee754 = require('ieee754')
 const customInspectSymbol =
